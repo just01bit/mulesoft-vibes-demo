@@ -1,13 +1,13 @@
 ---
 name: generate-munit-tests
-description: Use when the user asks to create, write, add, scaffold, fix, or improve/increase coverage of MUnit tests (a test suite, unit tests) for a Mule 4 app, flow, or sub-flow — including a single "test the 404 path" request. Covers any connector (Salesforce, Database, HTTP, JMS, SFTP…). Trigger words: munit, unit test, test suite, coverage, mock, assert, verify-call, "test the flow", "test the error path".
+description: Use when the user asks to create, write, add, scaffold, fix, or improve/increase coverage of MUnit tests (a test suite, unit tests) for a Mule 4 app, flow, or sub-flow — including a single "test the 404 path" request. Covers any connector (Salesforce, Database, HTTP, JMS, SFTP…). Trigger words - munit, unit test, test suite, coverage, mock, assert, verify-call, "test the flow", "test the error path".
 license: Apache-2.0
 compatibility: Mule 4 Maven project. MUnit 3.x for Mule 4.6+/Java 17, MUnit 2.x for older Mule 4. No live endpoints — all I/O is mocked.
 metadata:
   author: mulesoft-tim-dai
-  version: "3.0.0"
+  version: "4.0.0"
   theme: customer-success
-allowed-tools: Read Write Edit Bash
+allowed-tools: Read Write Edit Bash AskUserQuestion
 ---
 
 # MUnit Test Generator
